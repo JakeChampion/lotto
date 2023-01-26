@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "node --loader=esmock --no-warnings ./node_modules/uvu/bin.js"
+  },
+  "devDependencies": {
+    "esmock": "^2.1.0",
+    "sinon": "^15.0.0",
+    "uvu": "^0.5.6"
+  },
+  "type": "module",
+  "dependencies": {
+    "undici": "^5.13.0"
+  }
+}
